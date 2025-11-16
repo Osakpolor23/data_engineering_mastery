@@ -1,0 +1,30 @@
+[0;1;34mSun, Nov 16, 2025 12:00:42 AM: Starting setup process...[0m
+[0;1;32mSun, Nov 16, 2025 12:01:03 AM: Virtual environment created in .venv directory.[0m
+[0;1;32mSun, Nov 16, 2025 12:01:03 AM: Virtual environment activated and confirmed as /c/Users/HP/python_environment_bootstrapper/.venv/Scripts/python[0m
+[0;1;32mSun, Nov 16, 2025 12:01:21 AM: pip upgraded to the latest version pip 25.3 from C:\Users\HP\python_environment_bootstrapper\.venv\Lib\site-packages\pip (python 3.12)[0m
+[0;1;32mSun, Nov 16, 2025 12:01:23 AM: .gitignore file created.[0m
+[0;1;32mSun, Nov 16, 2025 12:01:23 AM: .venv/ and other standard ignoreables added to .gitignore.[0m
+[0;1;32mSun, Nov 16, 2025 12:01:23 AM: requirements.txt file created.[0m
+[0;1;32mSun, Nov 16, 2025 12:03:10 AM: Essential packages installed from requirements.txt.[0m
+[0;1;32mSun, Nov 16, 2025 12:03:10 AM: Setup completed successfully.[0m
+[0;1;34mSun, Nov 16, 2025 12:04:37 AM: Starting setup process...[0m
+[0;1;32mSun, Nov 16, 2025 12:04:37 AM: Virtual environment activated and confirmed as /c/Users/HP/python_environment_bootstrapper/.venv/Scripts/python[0m
+[0;1;32mSun, Nov 16, 2025 12:04:43 AM: pip upgraded to the latest version pip 25.3 from C:\Users\HP\python_environment_bootstrapper\.venv\Lib\site-packages\pip (python 3.12)[0m
+[0;1;32mSun, Nov 16, 2025 12:04:44 AM: Setup completed successfully.[0m
+[0;1;34mSun, Nov 16, 2025 12:19:46 AM: Starting setup process...[0m
+[0;1;32mSun, Nov 16, 2025 12:19:47 AM: Virtual environment activated and confirmed as /c/Users/HP/python_environment_bootstrapper/.venv/Scripts/python[0m
+[0;1;32mSun, Nov 16, 2025 12:19:54 AM: pip upgraded to the latest version pip 25.3 from C:\Users\HP\python_environment_bootstrapper\.venv\Lib\site-packages\pip (python 3.12)[0m
+[0;1;32mSun, Nov 16, 2025 12:19:56 AM: Setup completed successfully.[0m
+[0;1;34mSun, Nov 16, 2025  5:55:13 PM: Starting setup process...[0m
+[0;1;32mSun, Nov 16, 2025  5:55:54 PM: Virtual environment created in .venv directory.[0m
+[0;1;32mSun, Nov 16, 2025  5:55:54 PM: Virtual environment activated and confirmed as /c/Users/HP/python_environment_bootstrapper/python_environment_boostrapper/.venv/Scripts/python[0m
+[0;1;32mSun, Nov 16, 2025  5:56:35 PM: pip upgraded to the latest version pip 25.3 from C:\Users\HP\python_environment_bootstrapper\python_environment_boostrapper\.venv\Lib\site-packages\pip (python 3.12)[0m
+[0;1;32mSun, Nov 16, 2025  5:56:36 PM: .gitignore file created.[0m
+[0;1;32mSun, Nov 16, 2025  5:56:36 PM: .venv/ and other standard ignoreables added to .gitignore.[0m
+[0;1;32mSun, Nov 16, 2025  5:56:37 PM: requirements.txt file created.[0m
+[0;1;32mSun, Nov 16, 2025  6:00:57 PM: Essential packages installed from requirements.txt.[0m
+[0;1;32mSun, Nov 16, 2025  6:00:58 PM: Setup completed successfully.[0m
+[0;1;34mSun, Nov 16, 2025  6:04:19 PM: Starting setup process...[0m
+[0;1;32mSun, Nov 16, 2025  6:04:19 PM: Virtual environment activated and confirmed as /c/Users/HP/python_environment_bootstrapper/python_environment_boostrapper/.venv/Scripts/python[0m
+[0;1;32mSun, Nov 16, 2025  6:04:26 PM: pip upgraded to the latest version pip 25.3 from C:\Users\HP\python_environment_bootstrapper\python_environment_boostrapper\.venv\Lib\site-packages\pip (python 3.12)[0m
+[0;1;32mSun, Nov 16, 2025  6:04:28 PM: Setup completed successfully.[0m
