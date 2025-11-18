@@ -1,12 +1,12 @@
 #!/bin/bash
-# This script sets up the development environment
-set -eu
+# Script should stop running on any failure
+set -euo pipefail
 
 # Message Color Definitions
-INFO='\033[0;1;34m'
-ERROR='\033[0;1;31m'
-SUCCESS='\033[0;1;32m'
-WARNING='\033[0;1;33m'
+INFO='\033[0;1;34m[INFO]'
+ERROR='\033[0;1;31m[ERROR]'
+SUCCESS='\033[0;1;32m[SUCCESS]'
+WARNING='\033[0;1;33m[WARNING]'
 RESET='\033[0m'
 
 echo -e "${INFO}$(date): Starting setup process...${RESET}" | tee -a setup.log
@@ -38,7 +38,7 @@ echo -e "${SUCCESS}$(date): Virtual environment activated and confirmed as $(whi
 
 function pip_upgrade() {
 echo -e "${INFO}Upgrading to the latest version of pip in the virtual environment${RESET}"
-python -m pip install --upgrade pip
+python -m pip install --upgrade pip > /dev/null 2>&1
 echo -e "${SUCCESS}$(date): pip upgraded to the latest version $(python -m pip --version)${RESET}" | tee -a setup.log
 }
 
@@ -78,7 +78,7 @@ function package_install() {
     echo "python-dotenv" >> requirements.txt
     echo "pytest" >> requirements.txt
     echo -e "${INFO}Installing packages from requirements.txt...${RESET}"
-    python -m pip install -r requirements.txt
+    python -m pip install -r requirements.txt > /dev/null 2>&1
     echo -e "${SUCCESS}$(date): Essential packages installed from requirements.txt.${RESET}" | tee -a setup.log
 }
 
@@ -89,6 +89,7 @@ check_gitignore
 package_install
 }
 
+# call the main function
 main
 echo -e "${SUCCESS}$(date): Setup completed successfully.${RESET}" | tee -a setup.log
 
