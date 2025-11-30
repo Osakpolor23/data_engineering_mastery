@@ -105,7 +105,7 @@ This can be found on the line:
 ```bash
     if ls -la 2>/dev/null | grep -E -i -q "^d.*(\.)?venv"; then ...
 ```
-This was because I observed and believed that most virtual environments were named with names like myvenv,venv etc outside of just .venv. However, I later opted to just check for the presence of a .venv directory only for simplicity.
+   This was because I observed and believed that most virtual environments were named with names like myvenv,venv etc outside of just .venv. However, I later opted to just check for the presence of a .venv directory only for simplicity.
 
 4. The use of tee -a command to append the output of commands to a log file while also displaying it on the terminal. This is useful for keeping a record of actions taken during script execution. e.g., echo "message" | tee -a setup.log.
 This was used extensively throughout the script to log messages and also display them in the terminal for the user to see.
